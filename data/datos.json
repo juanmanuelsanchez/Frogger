@@ -1,0 +1,171 @@
+{ 
+   "fases": [
+    {
+     "participante":{"jugador":"player", "x":"200", "y":"400", "speed":"0.8",
+      "src":"images/char-boy.png"},
+
+     "enemigos": [
+
+        {"enemigo":"enemy1", "x":"-150", "y":"65", "speed":"25", "row":"1", "id":"enemy",
+        "src":"images/enemy-bug.png"},
+        {"enemigo":"enemy2", "x":"-120", "y":"149", "speed":"20", "row":"2", "id":"enemy",
+         "src":"images/enemy-bug.png"},
+        {"enemigo":"enemy3", "x":"-105", "y":"233", "speed":"25", "row":"3", "id":"enemy",
+        "src":"images/enemy-bug.png"}
+      ],
+
+      "premios": [
+        {"premio":"price1", "x":"100", "y":"149", "speed":"0", "row":"2", "value":"30"
+         ,"id":"gemBlue" , "src":"images/GemBlue.png"}
+      ],
+
+      "fase":"1",
+      "time":"240000",
+      "lifes":"3",
+      "target":"1"
+   },
+   {  
+      "participante":{"jugador":"player", "x":"200", "y":"400", "speed":"0.8",
+      "src":"images/char-pink-girl.png"},
+
+     "enemigos": [
+
+        {"enemigo":"enemy1", "x":"-150", "y":"65", "speed":"30", "row":"1", "id":"enemy",
+        "src":"images/enemy-bug.png"},
+        {"enemigo":"enemy2", "x":"-120", "y":"149", "speed":"25", "row":"2", "id":"enemy",
+         "src":"images/enemy-bug.png"},
+        {"enemigo":"enemy3", "x":"-105", "y":"233", "speed":"30", "row":"3", "id":"enemy",
+        "src":"images/enemy-bug.png"}
+      ],
+
+      "premios": [
+        {"premio":"price1", "x":"100", "y":"149", "speed":"0", "row":"2", "value":"30"
+         ,"id":"gemBlue" , "src":"images/GemBlue.png"},
+        {"premio":"price2", "x":"140", "y":"65", "speed":"0", "row":"1", "value":"40"
+         ,"id":"gemGreen" , "src":"images/Gem Green.png"} 
+      ],
+
+      "fase":"2",
+      "time":"120000",
+      "lifes":"2",
+      "target":"2"
+
+   },
+   {
+    
+     "participante":{"jugador":"player", "x":"200", "y":"400", "speed":"0.9",
+      "src":"images/char-princess-girl.png"},
+
+     "enemigos": [
+
+        {"enemigo":"enemy1", "x":"-150", "y":"65", "speed":"40", "row":"1", "id":"enemy",
+        "src":"images/enemy-bug.png"},
+        {"enemigo":"enemy2", "x":"-120", "y":"149", "speed":"35", "row":"2", "id":"enemy",
+         "src":"images/enemy-bug.png"},
+        {"enemigo":"enemy3", "x":"-105", "y":"233", "speed":"40", "row":"3", "id":"enemy",
+        "src":"images/enemy-bug.png"}
+      ],
+
+      "premios": [
+         {"premio":"price1", "x":"100", "y":"149", "speed":"0", "row":"2", "value":"40"
+         ,"id":"gemOrange" , "src":"images/Gem Orange.png"},
+        {"premio":"price2", "x":"140", "y":"65", "speed":"0", "row":"1", "value":"50"
+         ,"id":"gemGreen" , "src":"images/Heart.png"} 
+      ],
+
+      "fase":"2",
+      "time":"100000",
+      "lifes":"1",
+      "target":"3"
+
+   }
+    ],
+
+
+ "literales": [
+   
+   {  "id": "texto enunciado",
+
+     "enunciado": "En este juego aparecerán\nuna serie de preguntas con\nvarias posibles respuestas.\nSelecciona la que creas\ncorrecta y comprueba al final\ntus resultados."
+   },
+
+   {  "id": "texto descripción",
+
+     "enunciado": "Selecciona la respuesta que creas correcta para cada pregunta. Tras la selección, cambiarás a una nueva pregunta. Cuando se terminen, el juego te mostrará tus resultados."
+   }
+
+         ],
+
+    "imagenes": [
+
+        {
+            "id": "muñecoIntro",
+            "src": "assets/muñecoIntro.png"
+        },
+        {
+            "id": "muñecoGameOver",
+            "src": "assets/muñecoGameOver.png"
+        }
+
+          ],
+
+     "sonidos": [
+
+     {
+
+       "src": "sounds/Game-Death.ogg",
+       "id":"Game-Death"
+
+     },
+     
+     {
+       
+       "src": "sounds/R-Damage.ogg",
+       "id":"R-Damage"
+
+     },
+
+     {
+       
+       "src": "sounds/S-Damage.ogg",
+       "id":"S-Damage"
+
+     }
+
+        ],
+
+    "botones": [
+   {
+    "title":"Inicio",
+    "color": "#733",
+     "background":"#737"
+   },
+   {
+    "title":"Adelante",
+    "color": "#737",
+     "background":"#733"
+    
+   },
+   {
+    "title":"Detrás",
+    "color": "#337",
+     "background":"#773"
+     
+   },
+   {
+    "title":"Recomenzar",
+    "color": "#773",
+     "background":"#337"
+   },
+   {
+    "title":"Ayuda",
+    "color": "#373",
+     "background":"#778899"
+   }
+         ]   
+
+  }
+
+
+
+
